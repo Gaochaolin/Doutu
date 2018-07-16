@@ -1,0 +1,52 @@
+PODS:
+  - Alamofire (4.7.2)
+  - Kingfisher (4.8.0)
+  - MJRefresh (3.1.15.3)
+  - SwiftyJSON (4.1.0)
+  - UMCCommon (1.5.1)
+  - UMCSecurityPlugins (1.0.6)
+  - UMCShare/Core (6.9.3):
+    - UMCCommon
+  - UMCShare/Social/ReducedQQ (6.9.3):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/ReducedWeChat (6.9.3):
+    - UMCCommon
+    - UMCShare/Core
+  - UMCShare/Social/WeChat (6.9.3):
+    - UMCCommon
+    - UMCShare/Core
+    - UMCShare/Social/ReducedWeChat
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Kingfisher (~> 4.8.0)
+  - MJRefresh
+  - SwiftyJSON (~> 4.0)
+  - UMCCommon
+  - UMCSecurityPlugins
+  - UMCShare/Social/ReducedQQ
+  - UMCShare/Social/WeChat
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - Alamofire
+    - Kingfisher
+    - MJRefresh
+    - SwiftyJSON
+    - UMCCommon
+    - UMCSecurityPlugins
+    - UMCShare
+
+SPEC CHECKSUMS:
+  Alamofire: e4fa87002c137ba2d8d634d2c51fabcda0d5c223
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+  UMCCommon: 16b674e9de0616d3a6128c551348a686d869c3c7
+  UMCSecurityPlugins: 0831a08f3988f3cea9f1d3a7626cd9bee4fef150
+  UMCShare: 023886b10d11119331c9c46d8e8a0c31fe67c23e
+
+PODFILE CHECKSUM: 7f3f3e5e2a6b964fa6d75bbd6b301d405cf4e398
+
+COCOAPODS: 1.5.0

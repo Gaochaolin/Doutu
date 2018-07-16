@@ -1,0 +1,17 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '9.0'
+use_frameworks!
+
+target 'Doutu' do
+
+pod 'Alamofire', '~> 4.7'
+pod 'SwiftyJSON', '~> 4.0'
+pod 'Kingfisher', '~> 4.8.0'
+pod 'MJRefresh'
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+pod 'UMCShare/Social/WeChat'
+pod 'UMCShare/Social/ReducedQQ'
+end
